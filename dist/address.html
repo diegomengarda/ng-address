@@ -1,0 +1,11 @@
+<div>
+    <button class="btn btn-primary" ng-click="addAddress()">Add Address</button>
+    <div class="row" ng-repeat="address in adresses track by $index">
+        <div class="col-md-3"><input type="text" class="form-control" ng-model="address.postcode" placeholder="Postcode"></div>
+        <div class="col-md-3"><input type="text" class="form-control" ng-model="address.street" placeholder="Street"></div>
+        <div class="col-md-3"><input type="text" class="form-control" ng-model="address.number" placeholder="Number"></div>
+        <div class="col-md-3">
+            <button class="btn btn-danger" ng-click="removeAddress($index)">Remove</button>
+        </div>
+    </div>
+</div>

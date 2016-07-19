@@ -1,0 +1,26 @@
+{
+  "name": "ng-address",
+  "version": "1.0.0",
+  "description": "A little Angular 1.x component for adresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "package",
+    "address",
+    "ng"
+  ],
+  "author": "Diego Mengarda",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "event-stream": "^3.3.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "run-sequence": "^1.2.2"
+  }
+}
